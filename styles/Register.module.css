@@ -1,0 +1,88 @@
+.registerFormWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  min-height: fit-content;
+  padding: 2rem 0rem;
+  position:relative;
+}
+
+.registerFormWrapperChild {
+  width: 23.5rem;
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  z-index: 2;
+}
+
+.borderRadiusComponent1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50%;
+  width: 20%;
+  border-radius: 24% 76% 0% 100% / 64% 0% 100% 36%;
+  z-index: 1;
+  background: "rgb(2,0,36)";
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.borderRadiusComponent2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 20%;
+  border-radius: 0% 100% 32% 68% / 100% 26% 74% 0%;
+  z-index: 1;
+  background: "rgb(2,0,36)";
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+@media (max-width: 1000px) {
+    .borderRadiusComponent1 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 50%;
+      width: 40%;
+      border-radius: 24% 76% 0% 100% / 64% 0% 100% 36%;
+      z-index: 1;
+      background: "rgb(2,0,36)";
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(0, 212, 255, 1) 100%
+      );
+    }
+    .borderRadiusComponent2 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 50%;
+      width: 40%;
+      border-radius: 0% 100% 32% 68% / 100% 26% 74% 0%  ;
+      z-index: 1;
+      background: "rgb(2,0,36)";
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(0, 212, 255, 1) 100%
+      );
+    }
+  }

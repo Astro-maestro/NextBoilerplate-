@@ -1,0 +1,67 @@
+.footerHome{
+    background-color: #333333;
+    padding: 3rem;
+  }
+  
+  .footerContentWrapper{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .icons{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .iconsWrapper{
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .homeLink{
+    color: rgb(198, 198, 198);
+    text-decoration: none;
+  }
+  .homeLink:hover{
+    color: #FFFFFF;
+  }
+  
+  .homeLinkWrapper{
+    display:flex;
+    gap:2rem;
+    color: rgb(198, 198, 198);
+  }
+  
+  @media(width <= 500px){
+    .homeLinkWrapper{
+      display:flex;
+      gap:5px;
+      color:rgb(198, 198, 198);
+    }
+  }
+  
+  .copyRight{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    color: rgb(198, 198, 198);
+    gap:8px;
+  }
+  
+  @media(width<=500px){
+    .copyRight{
+      
+      display:flex;
+      text-align:center;
+      justify-content:center;
+      align-items:center;
+      color: rgb(198, 198, 198);
+      gap:3px;
+      
+    }
+  }

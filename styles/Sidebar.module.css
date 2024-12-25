@@ -1,0 +1,66 @@
+/* styles/Sidebar.module.css */
+.sidebar {
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  @media(max-width: 900px) {
+    .sidebar {
+      display: none;
+    }
+}  
+  .sidebarHeader {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+  
+  .accordionItem {
+    margin-bottom: 15px;
+  }
+  
+  .accordionHeader {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #444;
+    border-radius: 5px;
+  }
+  
+  .accordionHeader:hover {
+    background-color: #555;
+  }
+  
+  .accordionBody {
+    padding-left: 15px;
+    background-color: #222;
+  }
+  
+  .accordionBody ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .accordionBody li {
+    padding: 5px 0;
+  }
+  
+  .accordionIcon {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+  }
+  
